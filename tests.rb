@@ -43,6 +43,7 @@ class ColosonTest < Minitest::Test
   end
 
   def test_it_can_delete_numbers
+    skip
     post "/numbers/odds", number: 5
     post "/numbers/odds", number: 13
 
